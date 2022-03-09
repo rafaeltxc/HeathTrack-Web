@@ -1,0 +1,134 @@
+/* -------------- variables -------------- */
+
+:root{
+    --themeColor: #39B5B1;
+}
+
+/* -------------- anchorConfigs -------------- */
+
+a:link {
+    color: black;
+}
+    
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray !important;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------- cabecalho --------------*/
+
+header {
+    font-family: 'Istok Web', sans-serif;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+main {
+    background-image: url(./HealthTrack-Web_Documentação/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+
+.cabecalho {
+    text-shadow: 0 5px 5px gray;
+    padding: 2% 0 2% 0 !important;
+    font-size: 125%;
+    text-align: center;
+    box-shadow: 0px 0px 15px black;
+}
+
+.human-icon {
+    width: 30px;
+    color: var(--themeColor);
+    height: auto;
+}
+
+.login-cadastro {
+    color: var(--themeColor) !important;
+}
+
+.login-cadastro:hover {
+    color: gray !important;
+}
+
+/* -------------- main --------------*/
+
+.main-content {
+    margin: 35vw 0 15vw 0;
+    display: block;
+    text-align: center;
+}
+
+.main-img {
+    width: 80%;
+    height: auto;
+
+}
+
+.main-text {
+    margin-top: 10%;
+    font-size: 20px;
+
+}
+
+/* -------------- rodape --------------*/
+
+.rodape {
+    padding-top: 35px;
+    box-shadow: 0px 0px 15px black;
+    text-align: center;
+}
+
+.titulo {
+    color: var(--themeColor);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complemento {
+    font-size: 15px;
+}
+
+.condicoes {
+    margin-top: 20px;
+}
+
+.condicoes-content:hover {
+    text-decoration: underline gray !important;
+}
+
+.condicoes-content {
+    margin: 15px 0 15px 0;
+}
+
+/* -------------- mediaQuery's --------------*/
+
+@media screen and (min-width: 700px) {
+    .main-content {
+        margin-top: 15vw;
+    }
+
+    .main-img {
+        width: 50%;
+    }
+
+    .main-text {
+        margin-top: 10%;
+        font-size: 40px;
+    }   
+
+}

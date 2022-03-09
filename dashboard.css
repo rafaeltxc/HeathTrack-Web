@@ -1,0 +1,119 @@
+/* -------------- variables -------------- */
+
+:root{
+    --themeColor: #39B5B1;
+}
+
+/* -------------- anchor config -------------- */
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: lightgray !important;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* -------------- cabecalho -------------- */
+
+header {
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    align-items: center;
+    padding-top: 10vw;
+}
+
+.cabecalho {
+    background-image: url(./HealthTrack-Web_Documentação/dashboard-fundo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.logo-dashboard {
+    position: relative;
+    width: 40%;
+    height: auto;
+}
+
+.cabecalho-content {
+    font-size: 20px;
+}
+
+.exercicios {
+    margin-top: 35px;
+}
+
+/* -------------- main -------------- */
+
+.exercicios-bloco-1 {
+    position: absolute;
+}
+
+.bloco-1, .bloco-2 {
+    margin-bottom: 10vw;
+}
+
+.botao-bloco {
+    border: none;
+    position: absolute;
+    right: 1%;
+}
+
+.img-bloco-1 {
+    padding: 50px
+}
+
+.dieta-bloco-2 {
+    position: absolute;
+}
+
+.img-bloco-2 {
+    padding: 50px;
+}
+
+.texto-bloco-2 {
+    color: var(--themeColor) !important;
+}
+
+.img-div {
+    text-align: center;
+    width: 80%;
+    margin-bottom: 3vw;
+    border-width: 5%;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.img-grafico-main {
+    padding: 15px;
+
+    width: 80%;
+    
+}
+
+/* -------------- mediaQuery's -------------- */
+
+@media screen and (min-width: 700px) {
+    .logo-dashboard {
+        height: auto;
+        width: 20%;
+    }
+}

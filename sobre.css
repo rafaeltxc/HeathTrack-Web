@@ -1,0 +1,156 @@
+/* -------------- variables -------------- */
+
+:root {
+    --themeColor: #39B5B1;
+}
+
+/* -------------- anchorConfig -------------- */
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: gray !important;
+}
+
+a:active {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* -------------- cabecalho -------------- */
+
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+main {
+    background-image: url(./HealthTrack-Web_Documentação/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 20px;
+}
+
+.cabecalho {
+    align-items: center;
+    text-shadow: 0 5px 5px gray;
+    font-size: 125%;
+    box-shadow: 0px 0px 15px black;
+}
+
+.cabecalho-img {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 50% 0 50%;
+}
+
+.human-icon {
+    width: 30px;
+    color: var(--themeColor);
+    height: auto;
+}
+
+.login-cadastro {
+    color: var(--themeColor) !important;
+}
+
+.login-cadastro:hover {
+    color: gray !important;
+}
+
+/* -------------- main -------------- */
+
+.main-content {
+    margin-left: 5vw;
+    text-align: center;
+}
+
+.main-text {
+    margin-top: 55vw;
+    background-color: white;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 15px black;
+    width: 65%;
+    height: 110%;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo-main {
+    color: var(--themeColor);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complemento-main {
+    font-size: 15px;
+}
+
+.main-img {
+    margin: -20px 0 15vw 50px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 15px black;
+    width: 60vw;
+    height: auto;
+}
+
+/* -------------- rodape -------------- */
+
+.rodape {
+    padding-top: 35px;
+    box-shadow: 0px 0px 15px black;
+    text-align: center;
+}
+
+.rodape-logo {
+    display: none;
+}
+
+.titulo-rodape {
+    color: var(--themeColor);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.complemento-rodape {
+    font-size: 15px;
+}
+
+.condicoes {
+    margin-top: 20px;
+}
+
+.condicoes-content:hover {
+    text-decoration: underline gray !important;
+}
+
+.condicoes-content {
+    margin: 15px 0 15px 0;
+}
+
+/* -------------- mediaQuery's -------------- */
+
+@media screen and (min-width: 700px) {
+    .cabecalho-img {
+        margin: 15px 0 15px 0;
+    }
+
+    .main-text {
+        margin-top: 30vw;
+    }
+
+    .main-img {
+        width: 30%;
+        height: auto;
+    }
+}
